@@ -47,8 +47,8 @@ namespace DAL
         {
             get
             {
-                if (_products == null)
-                    _products = new ProductRepository(_context);
+                
+                    _products = _products?? new ProductRepository(_context);
 
                 return _products;
             }
