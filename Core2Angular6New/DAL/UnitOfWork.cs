@@ -34,8 +34,8 @@ namespace DAL
         {
             get
             {
-                if (_customers == null)
-                    _customers = new CustomerRepository(_context);
+                
+                    _customers = _customers?? new CustomerRepository(_context);
 
                 return _customers;
             }
