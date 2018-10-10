@@ -48,7 +48,7 @@ namespace DAL
             get
             {
                 
-                    _products = _products?? adfasd f new ProductRepository(_context);
+                    _products = _products?? new ProductRepository(_context);
 
                 return _products;
             }
