@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9C4D9E51-013F-4546-9CE9-E69F92FFD21F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core2Angular6New", "Core2Angular6New\Core2Angular6New\Core2Angular6New.csproj", "{684CC0EA-715D-4CD7-8521-65749458DCB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "Core2Angular6New\DAL\DAL.csproj", "{757A3E1E-65A1-4112-AE7A-F7751320D50D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{684CC0EA-715D-4CD7-8521-65749458DCB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684CC0EA-715D-4CD7-8521-65749458DCB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684CC0EA-715D-4CD7-8521-65749458DCB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684CC0EA-715D-4CD7-8521-65749458DCB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{757A3E1E-65A1-4112-AE7A-F7751320D50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{757A3E1E-65A1-4112-AE7A-F7751320D50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{757A3E1E-65A1-4112-AE7A-F7751320D50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{757A3E1E-65A1-4112-AE7A-F7751320D50D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{684CC0EA-715D-4CD7-8521-65749458DCB4} = {9C4D9E51-013F-4546-9CE9-E69F92FFD21F}
+		{757A3E1E-65A1-4112-AE7A-F7751320D50D} = {9C4D9E51-013F-4546-9CE9-E69F92FFD21F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F1EDAEE-3EA3-473F-88CE-CFE50F2BA766}
+	EndGlobalSection
+EndGlobal
