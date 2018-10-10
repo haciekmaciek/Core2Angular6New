@@ -60,8 +60,8 @@ namespace DAL
         {
             get
             {
-                
-                    _orders = _orders?? new OrdersRepository(_context);
+                if (_orders == null)
+                    _orders = new OrdersRepository(_context);
 
                 return _orders;
             }
